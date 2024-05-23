@@ -33,6 +33,11 @@ header {
     color: inherit;
 }
 
+h1 {
+    text-align: center;
+    padding: 4em;
+}
+
 .abstand {
     margin: 10em;
     border-bottom: 2px solid white;
