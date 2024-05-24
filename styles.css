@@ -1,0 +1,142 @@
+
+/* Arrange Buttons in a row */
+
+.galerie
+{
+ display: inline-flex;
+}
+
+/* Show img after Button klick */
+
+.button-img
+{
+    display: flexbox;
+    text-align: center;
+    padding: 5px;
+    justify-content: center;
+}
+
+
+/* Initially hide the image */
+#toggle-image {
+    display: none;
+    width: 23em;
+   
+}
+
+/* Show the image when the button is clicked */
+#show-button:active + .image-container #toggle-image,
+#show-button:focus + .image-container #toggle-image {
+    display: table;
+    
+}
+
+/* Optional: Style the button */
+#show-button {
+    
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+   
+}
+
+
+/* Optional: Style the image container */
+.image-container {
+    margin-top: 20px;
+    
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.introsec
+{
+ display: flexbox;
+ text-align: center;
+ background-color: blue;
+}
+
+.coaches
+{
+ background-color: green;
+  text-align: center;
+}
+.h2coaches
+{
+ background-color: red;
+ text-align: center;
+}
+
+.figcoach
+{
+ display:inline-block;
+ background-color: blue;
+}
+
+*/
+
+
+/* Hide all figures initially */
+
+/*
+.images figure {
+    display: none;
+}
+
+*/
+
+/* Show the appropriate figure when its corresponding radio button is checked */
+/*#image1:checked ~ .images #fig1 {
+    display: block;
+}
+
+#image2:checked ~ .images #fig2 {
+    display: block;
+}
+
+#image3:checked ~ .images #fig3 {
+    display: block;
+}
+
+#image4:checked ~ .images #fig4 {
+    display: block;
+}
+
+
+
+
+/* 
+
+Style for radio buttons and labels
+ (optional, for better presentation) 
+ 
+ */
+
+ /*
+
+.radio-buttons {
+    margin-bottom: 20px;
+}
+
+.radio-buttons label {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+*/
+
+
