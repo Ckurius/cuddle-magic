@@ -10,6 +10,10 @@ body {
     color: black;
 }
 
+main {
+    padding: 3em;
+}
+
 header {
     background-image: url(cuddlestars.webp);
     background-size: cover;
@@ -33,14 +37,64 @@ header {
     color: inherit;
 }
 
+.header-cta {
+    box-sizing: content-box;
+    width: 40em;
+    padding: 2em;
+    border: 0.3em solid #FFFFFF;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(255,255,0,0.5) rgba(255,255,0,0.5) rgba(255,255,0,0.5) rgba(255,255,0,0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color:  rgba(0,0,0,0.3);
+    font-size: 1.25em;
+    color: rgba(255,255,0);
+}
+
+.header-cta button {
+    margin: 1.5em 0em 0em 0em;
+    background-color: rgba(255,255,0,0.8);
+    padding: 10px 15px 10px;
+    text-align: center;
+    font-size: 1em;
+    color: black;
+}
+
 h1 {
     text-align: center;
-    padding: 4em;
+    padding: 2em;
+    font-size: 2.5em;
 }
 
 h2 {
     margin-top: 0;
     color: #333;
+    font-size: 2em;
+}
+
+.coaches {
+    margin: 1em;
+}
+
+.coach-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin: 1.5rem;
+}
+
+.coach-gallery-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.coach-gallery-item img {
+    width: 15%;
 }
 
 .contact {
