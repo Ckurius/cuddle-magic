@@ -51,3 +51,72 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #d7dbe6;
+    color: black;
+}
+
+header {
+    background-image: url(cuddlestars.webp);
+    background-size: cover;
+    height: 40em;
+    color: white;
+}
+
+.horizontalnav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    font-size: x-large;
+    padding: 1em;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.horizontalnav li a{
+    margin-right: 50px;
+    color: inherit;
+}
+
+h1 {
+    text-align: center;
+    padding: 4em;
+}
+
+.abstand {
+    margin: 10em;
+    border-bottom: 2px solid white;
+}
+
+footer {
+    background-color: blueviolet;
+    color: white;
+}
+
+footer a {
+    color: inherit;
+    font-style: normal;
+}
+
+footer a:hover{
+    color: 	rgb(0, 255, 179);
+}
+
+.footercontent {
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.copyright {
+    padding: 1.5rem;
+    align-self: end;
+}
